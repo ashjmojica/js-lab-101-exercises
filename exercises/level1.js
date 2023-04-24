@@ -1,11 +1,13 @@
 function lvl1exercise1 () {
   // Declare a variable as null and return it!
-
+const variableNull = null;
+return variableNull;
 }
 
 function lvl1exercise2 () {
   // Declare a variable with a number value and return it
-
+const number = 3;
+return 3;
 }
 
 function lvl1exercise3 () {
