@@ -7,11 +7,13 @@ return variableNull;
 function lvl1exercise2 () {
   // Declare a variable with a number value and return it
 const number = 3;
-return 3;
+return number;
 }
 
 function lvl1exercise3 () {
   // Declare a variable with a floating point number value that is not a whole number and return it
+const floatNum = 0.7;
+console.log(floatNum);
 
 }
 
