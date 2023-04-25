@@ -13,13 +13,14 @@ return number;
 function lvl1exercise3 () {
   // Declare a variable with a floating point number value that is not a whole number and return it
 const floatNum = 0.7;
-console.log(floatNum);
+return floatNum;
 
 }
 
 function lvl1exercise4 () {
   // Declare a variable and with a string value as "Hello World!" and return it
-
+let greeting = "Hello World!"
+return greeting;
 }
 
 function lvl1exercise5 () {
