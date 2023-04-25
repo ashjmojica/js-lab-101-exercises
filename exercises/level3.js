@@ -19,8 +19,13 @@ function lvl3exercise3() {
 
 function lvl3exercise4() {
   // Create a "hello world!" string. Return the length of the string
+const text = "hello world!";
+return length = text.length;
 }
+
 
 function lvl3exercise5() {
   // Create a "hello world!" string. Return the index of the word "world".
+const greeting = "hello world!";
+return index = greeting.indexOf("world", 1);
 }
