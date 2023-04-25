@@ -19,21 +19,29 @@ return floatNum;
 
 function lvl1exercise4 () {
   // Declare a variable and with a string value as "Hello World!" and return it
-let greeting = "Hello World!"
+const greeting = "Hello World!"
 return greeting;
 }
 
 function lvl1exercise5 () {
   // Declare a variable and with an array value containing the string "Hello World!" and the number 4 and return it
-
+const greeting = ["Hello World!", 4];
+return greeting;
 }
 
 function lvl1exercise6 () {
   // Declare a variable as an object containing the key-value pairs key1 -> "Hello World!" and key2 -> 4, and return it
-
+const newThings = {
+  key1: "Hello World!",
+  key2: 4
+  
+}
+return newThings.key1
+return newThings.key2
 }
 
 function lvl1exercise7 () {
   // Declare a variable as a boolean value 'false' and return it
-
+const isRaining = false;
+return isRaining;
 }
