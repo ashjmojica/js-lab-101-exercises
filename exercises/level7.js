@@ -4,3 +4,9 @@
 // integer return an empty array
 //
 // Name the function "finalFunction"
+
+myArray = [];
+function finalFunction(times) {
+  for (i = 0; i < times; i++) myArray.push("Item");
+}
+finalFunction(5);
