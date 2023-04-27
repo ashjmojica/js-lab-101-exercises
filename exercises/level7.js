@@ -5,8 +5,13 @@
 //
 // Name the function "finalFunction"
 
-myArray = [];
-function finalFunction(times) {
-  for (i = 0; i < times; i++) myArray.push("Item");
+function finalFunction(num) {
+  let array = [];
+  if (typeof num !== "number") {
+    return array;
+  }
+  for (i = 0; i < num; i++) {
+    array.push(num);
+  }
+  return array;
 }
-finalFunction(5);
